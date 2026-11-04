@@ -1,6 +1,6 @@
 import type { ModelConfig } from '@/api/model'
 
-export const WEKNORA_CLOUD_BASE_URL = 'https://weknora.weixin.qq.com'
+export const WEKNORA_CLOUD_BASE_URL = '#' // GoldenDB FAQ 定制:不外跳
 export const WEKNORA_CLOUD_PROVIDER = 'weknoracloud'
 
 export type WkcModelKind = 'chat' | 'embedding' | 'rerank' | 'vllm'

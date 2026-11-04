@@ -104,6 +104,6 @@ const examples = [
 
 const copy = (command: string) => copyWithToast(command, 'integrations.cli.copied')
 const openDocs = () => {
-  window.open('https://github.com/Tencent/WeKnora/blob/main/cli/README.md', '_blank', 'noopener,noreferrer')
+    /* GoldenDB FAQ 定制:不外跳 GitHub */
 }
 </script>
